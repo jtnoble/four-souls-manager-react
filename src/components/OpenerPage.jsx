@@ -1,6 +1,5 @@
 import React from 'react'
 import '../App.css'
-import { CharacterSelector } from './CharacterSelector'
 import { useNavigate } from 'react-router'
 
 export const OpenerPage = () => {

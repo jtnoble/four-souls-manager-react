@@ -5,22 +5,32 @@
     overflow: hidden;
 }
 
-.grid-container{
-    display: grid;
-    grid-template-rows: repeat(2, 1fr);
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
+.container{
 }
 
 #card-area{
-    grid-row: 1;
-    grid-column: 2;
-    justify-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
 }
 
 .cards{
-    position: relative;
-    display: inline-block;
+    margin: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    max-width: 30vh;
     z-index: 10;
+}
+
+#Character-Card{
+    position: absolute;
+    left: -12%;
+}
+#Eternal-Card{
+    position: absolute;
+    left: 12%;
+
 }
   
