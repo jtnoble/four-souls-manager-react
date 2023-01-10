@@ -17,11 +17,11 @@ export const CharacterCards = (props) => {
         if (event.currentTarget.id === characterCard.current.id){
         if (zIndexChar === 10){
             if(charTapped){
-            characterCard.current.style.opacity = "0.3";
+            characterCard.current.style.zIndex = 9;
             setCharTapped(false);
             }
             else {
-            characterCard.current.style.opacity = "1.0";
+            characterCard.current.style.zIndex = 10;
             setCharTapped(true)
             }
         }
@@ -33,11 +33,11 @@ export const CharacterCards = (props) => {
         else if(event.currentTarget.id === eternalCard.current.id){
         if (zIndexEternal === 10){
             if(eternalTapped){
-                eternalCard.current.style.opacity = "0.3";
+                eternalCard.current.style.zIndex = 9;
                 setEternalTapped(false);
             }
             else {
-                eternalCard.current.style.opacity = "1.0";
+                eternalCard.current.style.zIndex = 10;
                 setEternalTapped(true)
             }
         }
@@ -53,11 +53,14 @@ export const CharacterCards = (props) => {
     
     return(
         <div id="card-area">
-            <div>
-                <img id="Character-Card" className="cards" onClick={TapCard} ref={characterCard} style={{zIndex: zIndexChar}} src={character.char_img} alt={(character.name + " card")} />
+            <div id="Character-Card">
+                <img className="cards" onClick={TapCard} ref={characterCard} style={{zIndex: zIndexChar}} src={character.char_img} alt={(character.name + " card")} />
                 {tappedImage}
             </div>
-            <img id="Eternal-Card" className="cards" onClick={TapCard} ref={eternalCard} style={{zIndex: zIndexEternal}} src={character.eternal_img} alt={(character.eternal + " card")} />
+            <div id="Eternal-Card">
+                <img className="cards" onClick={TapCard} ref={eternalCard} style={{zIndex: zIndexEternal}} src={character.eternal_img} alt={(character.eternal + " card")} />
+                {tappedImage}
+            </div>
         </div>     
     )
 }
