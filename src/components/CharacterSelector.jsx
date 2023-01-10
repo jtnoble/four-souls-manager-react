@@ -10,7 +10,6 @@ export const CharacterSelector = ({characters}) => {
     if (result) {
       navigate('/play', {state: character});
     }
-    console.log("You click No!");
     return;
   };
   return (

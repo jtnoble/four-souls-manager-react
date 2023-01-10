@@ -4,7 +4,8 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 95vh;
+  min-height: 100vh;
+  max-width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -16,7 +17,7 @@
 .images{
   width: 100%;
   margin: auto;
-  justify-content: center;
+  justify-items: center;
   align-items: center;
   display: inline-grid;
   grid-template-columns: 1fr 1fr;
@@ -24,7 +25,7 @@
 }
 
 .cards{
-  max-width: 25vh;
+  width: 95%;
 }
 
 .fullscreen{

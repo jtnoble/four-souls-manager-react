@@ -11,6 +11,7 @@ export const CharacterCards = (props) => {
     const [ eternalTapped, setEternalTapped ] = useState(false);
     const [ zIndexChar, setZIndexChar ] = useState(10);
     const [ zIndexEternal, setZIndexEternal ] = useState(9);
+    const tappedImage = <img src={require("../images/tappedOverlay.png")} alt="TAPPED" id='tappedCard' className='cards'/>
 
     const TapCard = event =>{
         if (event.currentTarget.id === characterCard.current.id){
@@ -52,7 +53,10 @@ export const CharacterCards = (props) => {
     
     return(
         <div id="card-area">
-            <img id="Character-Card" className="cards" onClick={TapCard} ref={characterCard} style={{zIndex: zIndexChar}} src={character.char_img} alt={(character.name + " card")} />
+            <div>
+                <img id="Character-Card" className="cards" onClick={TapCard} ref={characterCard} style={{zIndex: zIndexChar}} src={character.char_img} alt={(character.name + " card")} />
+                {tappedImage}
+            </div>
             <img id="Eternal-Card" className="cards" onClick={TapCard} ref={eternalCard} style={{zIndex: zIndexEternal}} src={character.eternal_img} alt={(character.eternal + " card")} />
         </div>     
     )
