@@ -11,40 +11,24 @@ export const CharacterCards = (props) => {
     const [ eternalTapped, setEternalTapped ] = useState(false);
     const [ zIndexChar, setZIndexChar ] = useState(10);
     const [ zIndexEternal, setZIndexEternal ] = useState(9);
-    const tappedImage = <img src={require("../images/tappedOverlay.png")} alt="TAPPED" id='tappedCard' className='cards'/>
+    const [ charTapIndex, setCharTapIndex ] = useState(8);
+    const [ eternalTapIndex, setEternalTapIndex ] = useState(8);
 
-    const TapCard = event =>{
-        if (event.currentTarget.id === characterCard.current.id){
-        if (zIndexChar === 10){
-            if(charTapped){
-            characterCard.current.style.zIndex = 9;
-            setCharTapped(false);
+
+    const TapCard = (zIndexCard, cardTapped, setCardTapped, setCardTapIndex, setZIndexCurrentCard, setZIndexOtherCard) =>{
+        if (zIndexCard === 10){
+            if (cardTapped){
+                setCardTapped(false);
+                setCardTapIndex(8);
             }
-            else {
-            characterCard.current.style.zIndex = 10;
-            setCharTapped(true)
-            }
+            else if (!charTapped){
+                setCardTapped(true);
+                setCardTapIndex(11);
+            }   
         }
         else{
-            setZIndexChar(10);
-            setZIndexEternal(9);
-        }
-        }
-        else if(event.currentTarget.id === eternalCard.current.id){
-        if (zIndexEternal === 10){
-            if(eternalTapped){
-                eternalCard.current.style.zIndex = 9;
-                setEternalTapped(false);
-            }
-            else {
-                eternalCard.current.style.zIndex = 10;
-                setEternalTapped(true)
-            }
-        }
-        else{
-            setZIndexChar(9);
-            setZIndexEternal(10);
-        }
+            setZIndexCurrentCard(10)
+            setZIndexOtherCard(9)
         }
     }
 
@@ -53,13 +37,13 @@ export const CharacterCards = (props) => {
     
     return(
         <div id="card-area">
-            <div id="Character-Card">
-                <img className="cards" onClick={TapCard} ref={characterCard} style={{zIndex: zIndexChar}} src={character.char_img} alt={(character.name + " card")} />
-                {tappedImage}
+            <div id="Character-Card" onClick={() => TapCard(zIndexChar, charTapped, setCharTapped, setCharTapIndex, setZIndexChar, setZIndexEternal)}>
+                <img className="cards" ref={characterCard} style={{zIndex: zIndexChar}} src={character.char_img} alt={(character.name + " card")} />
+                <img src={require("../images/tappedOverlay.png")} style={{zIndex: charTapIndex}} alt="TAPPED" id='tappedCard1' className='cards'/>
             </div>
-            <div id="Eternal-Card">
-                <img className="cards" onClick={TapCard} ref={eternalCard} style={{zIndex: zIndexEternal}} src={character.eternal_img} alt={(character.eternal + " card")} />
-                {tappedImage}
+            <div id="Eternal-Card" onClick={() => TapCard(zIndexEternal, eternalTapped, setEternalTapped, setEternalTapIndex, setZIndexChar, setZIndexEternal)}>
+                <img className="cards" ref={eternalCard} style={{zIndex: zIndexEternal}} src={character.eternal_img} alt={(character.eternal + " card")} />
+                <img src={require("../images/tappedOverlay.png")} style={{zIndex: eternalTapIndex}} alt="TAPPED" id='tappedCard2' className='cards'/>
             </div>
         </div>     
     )
