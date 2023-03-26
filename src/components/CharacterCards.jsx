@@ -5,8 +5,8 @@ import '../styles/CharacterPage.css'
 
 
 export const CharacterCards = (props) => {
-    const characterCard = React.createRef();
-    const eternalCard = React.createRef();
+    //const characterCard = React.createRef();
+    //const eternalCard = React.createRef();
     const [ charTapped, setCharTapped ] = useState(false);
     const [ eternalTapped, setEternalTapped ] = useState(false);
     const [ zIndexChar, setZIndexChar ] = useState(10);
@@ -20,17 +20,18 @@ export const CharacterCards = (props) => {
         if (zIndexCard === 10){
             if (cardTapped){
                 setCardTapped(false);
-                setCardTilt("90deg");
-            }
-            else if (!charTapped){
-                setCardTapped(true);
                 setCardTilt("0deg");
+            }
+            else if (!cardTapped){
+                setCardTapped(true);
+                setCardTilt("90deg");
             }   
         }
         else{
             setZIndexCurrentCard(10)
             setZIndexOtherCard(9)
         }
+        console.log(zIndexCard, cardTapped, setCardTapped, setCardTilt, setZIndexCurrentCard, setZIndexOtherCard)
     }
 
     const { state } = useLocation();
@@ -39,10 +40,10 @@ export const CharacterCards = (props) => {
     return(
         <div id="card-area">
             <div id="Character-Card" onClick={() => TapCard(zIndexChar, charTapped, setCharTapped, setCharTilt, setZIndexChar, setZIndexEternal)}>
-                <img className="cards" ref={characterCard} style={{zIndex: zIndexChar, rotate: charTilt}} src={character.char_img} alt={(character.name + " card")} />
+                <img className="cards" style={{zIndex: zIndexChar, rotate: charTilt}} src={character.char_img} alt={(character.name + " card")} />
             </div>
             <div id="Eternal-Card" onClick={() => TapCard(zIndexEternal, eternalTapped, setEternalTapped, setEternalTilt, setZIndexEternal, setZIndexChar)}>
-                <img className="cards" ref={eternalCard} style={{zIndex: zIndexEternal, rotate: eternalTilt}} src={character.eternal_img} alt={(character.eternal + " card")} />
+                <img className="cards" style={{zIndex: zIndexEternal, rotate: eternalTilt}} src={character.eternal_img} alt={(character.eternal + " card")} />
             </div>
         </div>     
     )
