@@ -31,7 +31,6 @@ export const CharacterCards = (props) => {
             setZIndexCurrentCard(10)
             setZIndexOtherCard(9)
         }
-        console.log(zIndexCard, cardTapped, setCardTapped, setCardTilt, setZIndexCurrentCard, setZIndexOtherCard)
     }
 
     const { state } = useLocation();

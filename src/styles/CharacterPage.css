@@ -3,6 +3,7 @@
     height: 100vh;
     width: 100vw;
     overflow: hidden;
+    position: relative;
 }
 
 .container{
@@ -13,6 +14,7 @@
     justify-content: center;
     align-items: center;
     height: 50vh;
+    width: 100vw;
 
 }
 
@@ -22,6 +24,7 @@
     left: 0;
     right: 0;
     z-index: 10;
+    object-fit: contain;
 }
 
 #Character-Card{
@@ -32,3 +35,37 @@
     position: absolute;
     right: 5%;
 }
+
+/*Bottom Half*/
+#Controls-Area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(50vh - 50px);
+    width: 100vw;
+}
+.Bottom-Page-Components{
+    margin-top: 0%;
+    height: calc(33.33% - 25px);
+}
+.Bottom-Page-Components img{
+    height: 100%;
+    width: 100%;
+    image-rendering: pixelated;
+}
+.Bottom-Page-Row{
+    display: flex; /* Add display property */
+    flex-direction: row; /* Update flex-direction property */
+    height: 100%;
+    width: 100%;
+}
+#Health-Area{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+}
+#Health-Area img{
+    width: 20%;
+}
+
