@@ -22,9 +22,9 @@ export const Counting = (props) => {
     }
     return (
         <>
-            <h1 onClick={AddNumber}>+</h1>
-            <h1 onClick={SubtractNumber}>-</h1>
-            <h1 onClick={ResetNumber}>{number}</h1>
+            <img className="Plus-Minus" src={require("../../images/plus.png")} alt="+" onClick={AddNumber}/>
+            <img className="Plus-Minus" src={require("../../images/minus.png")} alt="-" onClick={SubtractNumber}/>
+            <h1 style={{fontSize: "40px", textAlign: "center", color: "white"}}onClick={ResetNumber}>{number}</h1>
         </>
     )
 }
