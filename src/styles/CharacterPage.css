@@ -5,10 +5,10 @@
     overflow: hidden;
     position: relative;
 }
-
+/*
 .container{
 }
-
+*/
 #card-area{
     display: flex;
     justify-content: center;
