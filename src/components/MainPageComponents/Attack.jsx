@@ -10,7 +10,7 @@ export const Attack = () => {
         <div className='Bottom-Page-Row'>
             <div id='Attack-Area'>
             <   img src={require("../../images/sword.png")} alt="Atk Power" /> 
-                <Counting startValue={1}/>
+                <Counting startValue={1} countType={'attack-count'}/>
             </div>
         </div>
     </div>

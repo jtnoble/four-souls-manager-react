@@ -44,6 +44,7 @@
     align-items: center;
     height: calc(50vh - 50px);
     width: 100vw;
+    font-family: 'upheavtt';
 }
 .Bottom-Page-Components{
     margin-top: 0%;
@@ -84,3 +85,10 @@
     width: 10px;
 }
 
+/* FONTS */
+@font-face {
+    font-family: 'upheavtt';
+    src: url(./fonts/upheavtt.ttf);
+    /* other formats include: 'woff2', 'truetype, 'opentype',
+                              'embedded-opentype', and 'svg' */
+  }
