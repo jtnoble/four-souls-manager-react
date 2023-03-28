@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/four-souls-manager-react/static/css/main.d8c42994.css",
+    "main.js": "/four-souls-manager-react/static/js/main.21cca6c9.js",
+    "static/js/787.ae0805b6.chunk.js": "/four-souls-manager-react/static/js/787.ae0805b6.chunk.js",
+    "static/media/b2-eden_eternal.png": "/four-souls-manager-react/static/media/b2-eden_eternal.6014588e8e3f3ef4f807.png",
+    "static/media/b2-the_curse.png": "/four-souls-manager-react/static/media/b2-the_curse.1b708ac009f83cc3f98b.png",
+    "static/media/b2-forever_alone.png": "/four-souls-manager-react/static/media/b2-forever_alone.abf62dc1e47575e2f162.png",
+    "static/media/b2-the_bone.png": "/four-souls-manager-react/static/media/b2-the_bone.cdf9cc05dee7760c20a2.png",
+    "static/media/b2-sleight_of_hand.png": "/four-souls-manager-react/static/media/b2-sleight_of_hand.ef8d067abb62bfd8bd83.png",
+    "static/media/b2-yum_heart.png": "/four-souls-manager-react/static/media/b2-yum_heart.d6dc0c2c05f137086b16.png",
+    "static/media/b2-incubus.png": "/four-souls-manager-react/static/media/b2-incubus.4a68c29628bd2f1a8f25.png",
+    "static/media/b2-blood_lust.png": "/four-souls-manager-react/static/media/b2-blood_lust.6eb1e947ff7026340b90.png",
+    "static/media/b2-book_of_belial.png": "/four-souls-manager-react/static/media/b2-book_of_belial.0e2ea084434a64f73825.png",
+    "static/media/b2-the_d6.png": "/four-souls-manager-react/static/media/b2-the_d6.b4a0cdccb9a1e56e516d.png",
+    "static/media/b2-lazarus.png": "/four-souls-manager-react/static/media/b2-lazarus.4d61016e0dbf3ca386f2.png",
+    "static/media/b2-lilith.png": "/four-souls-manager-react/static/media/b2-lilith.b33221f9b64f1d5695da.png",
+    "static/media/b2-lazarus_rags.png": "/four-souls-manager-react/static/media/b2-lazarus_rags.cb901f622a86a5acd2cc.png",
+    "static/media/b2-the_forgotten.png": "/four-souls-manager-react/static/media/b2-the_forgotten.e008ece46f9c89e2f794.png",
+    "static/media/b2-eden.png": "/four-souls-manager-react/static/media/b2-eden.9c0cbeb89c70b62dc4c2.png",
+    "static/media/b2-maggy.png": "/four-souls-manager-react/static/media/b2-maggy.598ee28b71539a3666c5.png",
+    "static/media/b2-samson.png": "/four-souls-manager-react/static/media/b2-samson.1a2ba82a9207437c028a.png",
+    "static/media/b2-eve.png": "/four-souls-manager-react/static/media/b2-eve.647ebc9649d4d122f42b.png",
+    "static/media/b2-cain.png": "/four-souls-manager-react/static/media/b2-cain.8a1d32e4a8415586a64c.png",
+    "static/media/b2-judas.png": "/four-souls-manager-react/static/media/b2-judas.d3a24c502efb625b10fa.png",
+    "static/media/b2-isaac.png": "/four-souls-manager-react/static/media/b2-isaac.82d0d79772205085883a.png",
+    "static/media/b2-blue_baby.png": "/four-souls-manager-react/static/media/b2-blue_baby.527f44c45bb845f0c909.png",
+    "static/media/upheavtt.ttf": "/four-souls-manager-react/static/media/upheavtt.e3d365ba5fa6a65e9caf.ttf",
+    "index.html": "/four-souls-manager-react/index.html",
+    "main.d8c42994.css.map": "/four-souls-manager-react/static/css/main.d8c42994.css.map",
+    "main.21cca6c9.js.map": "/four-souls-manager-react/static/js/main.21cca6c9.js.map",
+    "787.ae0805b6.chunk.js.map": "/four-souls-manager-react/static/js/787.ae0805b6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d8c42994.css",
+    "static/js/main.21cca6c9.js"
+  ]
+}
