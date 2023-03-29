@@ -1,6 +1,6 @@
 import { OpenerPage } from "./components/OpenerPage";
 import { CharacterSelector } from "./components/CharacterSelector";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
 import { CharacterPage } from "./components/CharacterPage";
 
 
@@ -20,13 +20,13 @@ const characters = [
 
 function App() {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter>
       <Routes>
         <Route exact path='/' element={<OpenerPage />}/>
         <Route exact path='/character_selection' element={<CharacterSelector characters={characters}/>}/>
         <Route exact path='/play' element={<CharacterPage/>}/>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
