@@ -1,6 +1,6 @@
 import { OpenerPage } from "./components/OpenerPage";
 import { CharacterSelector } from "./components/CharacterSelector";
-import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
+import { Routes, Route, HashRouter } from "react-router-dom";
 import { CharacterPage } from "./components/CharacterPage";
 
 

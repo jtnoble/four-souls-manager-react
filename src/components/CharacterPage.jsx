@@ -2,6 +2,7 @@ import React from 'react'
 import '../styles/CharacterPage.css'
 import { CharacterCards } from './CharacterCards'
 import { CharacterControls } from './CharacterControls'
+import { OverlayCounters } from './OverlayCounters'
 
 
 
