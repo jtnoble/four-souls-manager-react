@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/four-souls-manager-react/static/css/main.d8c42994.css",
-    "main.js": "/four-souls-manager-react/static/js/main.83bc8317.js",
+    "main.css": "/four-souls-manager-react/static/css/main.5c23b957.css",
+    "main.js": "/four-souls-manager-react/static/js/main.98f98843.js",
     "static/js/787.ae0805b6.chunk.js": "/four-souls-manager-react/static/js/787.ae0805b6.chunk.js",
     "static/media/b2-eden_eternal.png": "/four-souls-manager-react/static/media/b2-eden_eternal.6014588e8e3f3ef4f807.png",
     "static/media/b2-the_curse.png": "/four-souls-manager-react/static/media/b2-the_curse.1b708ac009f83cc3f98b.png",
@@ -27,12 +27,12 @@
     "static/media/b2-blue_baby.png": "/four-souls-manager-react/static/media/b2-blue_baby.527f44c45bb845f0c909.png",
     "static/media/upheavtt.ttf": "/four-souls-manager-react/static/media/upheavtt.e3d365ba5fa6a65e9caf.ttf",
     "index.html": "/four-souls-manager-react/index.html",
-    "main.d8c42994.css.map": "/four-souls-manager-react/static/css/main.d8c42994.css.map",
-    "main.83bc8317.js.map": "/four-souls-manager-react/static/js/main.83bc8317.js.map",
+    "main.5c23b957.css.map": "/four-souls-manager-react/static/css/main.5c23b957.css.map",
+    "main.98f98843.js.map": "/four-souls-manager-react/static/js/main.98f98843.js.map",
     "787.ae0805b6.chunk.js.map": "/four-souls-manager-react/static/js/787.ae0805b6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d8c42994.css",
-    "static/js/main.83bc8317.js"
+    "static/css/main.5c23b957.css",
+    "static/js/main.98f98843.js"
   ]
 }
