@@ -15,7 +15,13 @@ const characters = [
   { key: 8, name: "Lilith", eternal: "Incubus", char_img: require("./characters/character_images/b2-lilith.png"), eternal_img: require("./characters/eternal_images/b2-incubus.png")},
   { key: 9, name: "Maggy", eternal: "Yum Heart", char_img: require("./characters/character_images/b2-maggy.png"), eternal_img: require("./characters/eternal_images/b2-yum_heart.png")},
   { key: 10, name: "Samson", eternal: "Blood Lust", char_img: require("./characters/character_images/b2-samson.png"), eternal_img: require("./characters/eternal_images/b2-blood_lust.png")},
-  { key: 11, name: "The Forgotten", eternal: "The Bone", char_img: require("./characters/character_images/b2-the_forgotten.png"), eternal_img: require("./characters/eternal_images/b2-the_bone.png")}
+  { key: 11, name: "The Forgotten", eternal: "The Bone", char_img: require("./characters/character_images/b2-the_forgotten.png"), eternal_img: require("./characters/eternal_images/b2-the_bone.png")},
+  { key: 12, name: "Bum-Bo", eternal: "Bag-O-Trash", char_img: require("./characters/character_images/fsp2-bum_bo-308x420.png"), eternal_img: require("./characters/eternal_images/fsp2-bag_o_trash-308x420.png")},
+  { key: 13, name: "Dark Judas", eternal: "Dark Arts", char_img: require("./characters/character_images/fsp2-dark_judas-308x420.png"), eternal_img: require("./characters/eternal_images/fsp2-dark_arts-308x420.png")},
+  { key: 14, name: "Guppy", eternal: "Infestation", char_img: require("./characters/character_images/fsp2-guppy-308x420.png"), eternal_img: require("./characters/eternal_images/fsp2-infestation-308x420.png")},
+  { key: 15, name: "Whore Of Babylon", eternal: "Gimpy", char_img: require("./characters/character_images/fsp2-whore_of_babylon-308x420.png"), eternal_img: require("./characters/eternal_images/fsp2-gimpy-308x420.png")}
+
+
 ]
 
 function App() {

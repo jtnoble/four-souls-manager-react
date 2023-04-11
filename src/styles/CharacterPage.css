@@ -113,6 +113,11 @@
     overflow-wrap: break-word;
 }
 
+.Counting-Input-Fields{
+    display: inline;
+    padding-inline: 5px;
+}
+
 /* FONTS */
 @font-face {
     font-family: 'upheavtt';
