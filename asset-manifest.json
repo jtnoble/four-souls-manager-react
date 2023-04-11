@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/four-souls-manager-react/static/css/main.5c23b957.css",
-    "main.js": "/four-souls-manager-react/static/js/main.98f98843.js",
+    "main.css": "/four-souls-manager-react/static/css/main.1197acff.css",
+    "main.js": "/four-souls-manager-react/static/js/main.7caa20cd.js",
     "static/js/787.ae0805b6.chunk.js": "/four-souls-manager-react/static/js/787.ae0805b6.chunk.js",
     "static/media/b2-eden_eternal.png": "/four-souls-manager-react/static/media/b2-eden_eternal.6014588e8e3f3ef4f807.png",
     "static/media/b2-the_curse.png": "/four-souls-manager-react/static/media/b2-the_curse.1b708ac009f83cc3f98b.png",
@@ -11,6 +11,8 @@
     "static/media/b2-yum_heart.png": "/four-souls-manager-react/static/media/b2-yum_heart.d6dc0c2c05f137086b16.png",
     "static/media/b2-incubus.png": "/four-souls-manager-react/static/media/b2-incubus.4a68c29628bd2f1a8f25.png",
     "static/media/b2-blood_lust.png": "/four-souls-manager-react/static/media/b2-blood_lust.6eb1e947ff7026340b90.png",
+    "static/media/fsp2-bag_o_trash-308x420.png": "/four-souls-manager-react/static/media/fsp2-bag_o_trash-308x420.f34a4d07bdb5a3e6830c.png",
+    "static/media/fsp2-infestation-308x420.png": "/four-souls-manager-react/static/media/fsp2-infestation-308x420.9bba92ecec31ff32824d.png",
     "static/media/b2-book_of_belial.png": "/four-souls-manager-react/static/media/b2-book_of_belial.0e2ea084434a64f73825.png",
     "static/media/b2-the_d6.png": "/four-souls-manager-react/static/media/b2-the_d6.b4a0cdccb9a1e56e516d.png",
     "static/media/b2-lazarus.png": "/four-souls-manager-react/static/media/b2-lazarus.4d61016e0dbf3ca386f2.png",
@@ -19,20 +21,26 @@
     "static/media/b2-the_forgotten.png": "/four-souls-manager-react/static/media/b2-the_forgotten.e008ece46f9c89e2f794.png",
     "static/media/b2-eden.png": "/four-souls-manager-react/static/media/b2-eden.9c0cbeb89c70b62dc4c2.png",
     "static/media/b2-maggy.png": "/four-souls-manager-react/static/media/b2-maggy.598ee28b71539a3666c5.png",
+    "static/media/fsp2-dark_arts-308x420.png": "/four-souls-manager-react/static/media/fsp2-dark_arts-308x420.acf9792994f75874b857.png",
     "static/media/b2-samson.png": "/four-souls-manager-react/static/media/b2-samson.1a2ba82a9207437c028a.png",
+    "static/media/fsp2-gimpy-308x420.png": "/four-souls-manager-react/static/media/fsp2-gimpy-308x420.da7601de26dc0f5f1096.png",
     "static/media/b2-eve.png": "/four-souls-manager-react/static/media/b2-eve.647ebc9649d4d122f42b.png",
+    "static/media/fsp2-guppy-308x420.png": "/four-souls-manager-react/static/media/fsp2-guppy-308x420.77ecd556d63d5c165360.png",
+    "static/media/fsp2-bum_bo-308x420.png": "/four-souls-manager-react/static/media/fsp2-bum_bo-308x420.293e1607ff02325af455.png",
     "static/media/b2-cain.png": "/four-souls-manager-react/static/media/b2-cain.8a1d32e4a8415586a64c.png",
     "static/media/b2-judas.png": "/four-souls-manager-react/static/media/b2-judas.d3a24c502efb625b10fa.png",
     "static/media/b2-isaac.png": "/four-souls-manager-react/static/media/b2-isaac.82d0d79772205085883a.png",
     "static/media/b2-blue_baby.png": "/four-souls-manager-react/static/media/b2-blue_baby.527f44c45bb845f0c909.png",
+    "static/media/fsp2-whore_of_babylon-308x420.png": "/four-souls-manager-react/static/media/fsp2-whore_of_babylon-308x420.8be1dda5caa3bbd4eb30.png",
+    "static/media/fsp2-dark_judas-308x420.png": "/four-souls-manager-react/static/media/fsp2-dark_judas-308x420.7a3aec9183621bb6aba5.png",
     "static/media/upheavtt.ttf": "/four-souls-manager-react/static/media/upheavtt.e3d365ba5fa6a65e9caf.ttf",
     "index.html": "/four-souls-manager-react/index.html",
-    "main.5c23b957.css.map": "/four-souls-manager-react/static/css/main.5c23b957.css.map",
-    "main.98f98843.js.map": "/four-souls-manager-react/static/js/main.98f98843.js.map",
+    "main.1197acff.css.map": "/four-souls-manager-react/static/css/main.1197acff.css.map",
+    "main.7caa20cd.js.map": "/four-souls-manager-react/static/js/main.7caa20cd.js.map",
     "787.ae0805b6.chunk.js.map": "/four-souls-manager-react/static/js/787.ae0805b6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c23b957.css",
-    "static/js/main.98f98843.js"
+    "static/css/main.1197acff.css",
+    "static/js/main.7caa20cd.js"
   ]
 }
