@@ -1,6 +1,5 @@
 import React from 'react'
 import { useState } from 'react'
-import { useLocation } from 'react-router'
 import '../../styles/CharacterPage.css'
 import { InputFields } from './InputFields'
 
@@ -17,7 +16,7 @@ export const BottomButtons = () => {
 
     return (
         <div className='Bottom-Page-Components' id='BtmBtns-Area'>
-            <button onClick={OpenCounters}>Counters</button>
+            <button id='Open-Counters-Button' onClick={OpenCounters}>Counters</button>
             <div id='Overlay-Counters-Page' style={{zIndex: overlayIndex}}>
                 <div id='Overlay-Counters-Page-Formatting'>
                     <InputFields inputNum={'Counters_Input_1'}/>

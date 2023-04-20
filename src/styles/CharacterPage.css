@@ -117,6 +117,21 @@
     display: inline;
     padding-inline: 5px;
 }
+#Open-Counters-Button{
+    background-color: rgba(69, 0, 0, 0.8);
+    color: white;
+    width: 100px;
+    height: 35px;
+}
+#Close-Counters-Button{
+    background-color: rgba(69, 0, 0, 0.8);
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+
+}
 
 /* FONTS */
 @font-face {
