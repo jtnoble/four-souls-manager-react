@@ -14,7 +14,7 @@ export const CharacterSelector = ({characters}) => {
   };
   return (
     <div className='App-header'>
-      <h1>CharacterSelector</h1>
+      <h1>Character Selector</h1>
       <div>
         {characters.map(character => {
           return (

@@ -10,6 +10,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  font-family: upheavtt;
   font-size: calc(10px + 2vmin);
   color: rgb(122, 0, 0);
 }
@@ -38,4 +39,34 @@
   min-height: 95vh;
   
 }
+#Main-Menu-Buttons{
+  display: grid;
+  grid-template-columns: 1;
+  grid-template-rows: 3;
+  row-gap: 20px;
+  padding: 50px;
+}
+.Main-Menu-Buttons{
+  position: relative;
+  background-color: rgb(122, 0, 0);
+  color: white;
+  width: 60vw;
+  height: 5vh;
+  justify-content: space-between;
 
+}
+span{
+  color: white;
+}
+#Author-Credit{
+  position: fixed;
+  bottom: 10px;
+}
+
+/* FONTS */
+@font-face {
+  font-family: 'upheavtt';
+  src: url(styles/fonts/upheavtt.ttf);
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
