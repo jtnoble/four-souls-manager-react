@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/four-souls-manager-react/static/css/main.bf5f4c97.css",
-    "main.js": "/four-souls-manager-react/static/js/main.b3c754c3.js",
+    "main.css": "/four-souls-manager-react/static/css/main.f00e954b.css",
+    "main.js": "/four-souls-manager-react/static/js/main.955ce8c4.js",
     "static/js/787.ae0805b6.chunk.js": "/four-souls-manager-react/static/js/787.ae0805b6.chunk.js",
     "static/media/rwz-lil_steven.png": "/four-souls-manager-react/static/media/rwz-lil_steven.edf2c07eb57e95b902a2.png",
     "static/media/b2-eden_eternal.png": "/four-souls-manager-react/static/media/b2-eden_eternal.6014588e8e3f3ef4f807.png",
@@ -123,12 +123,12 @@
     "static/media/rwz-baba-308x420.png": "/four-souls-manager-react/static/media/rwz-baba-308x420.98902ed461a5f0fff37d.png",
     "static/media/upheavtt.ttf": "/four-souls-manager-react/static/media/upheavtt.e3d365ba5fa6a65e9caf.ttf",
     "index.html": "/four-souls-manager-react/index.html",
-    "main.bf5f4c97.css.map": "/four-souls-manager-react/static/css/main.bf5f4c97.css.map",
-    "main.b3c754c3.js.map": "/four-souls-manager-react/static/js/main.b3c754c3.js.map",
+    "main.f00e954b.css.map": "/four-souls-manager-react/static/css/main.f00e954b.css.map",
+    "main.955ce8c4.js.map": "/four-souls-manager-react/static/js/main.955ce8c4.js.map",
     "787.ae0805b6.chunk.js.map": "/four-souls-manager-react/static/js/787.ae0805b6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bf5f4c97.css",
-    "static/js/main.b3c754c3.js"
+    "static/css/main.f00e954b.css",
+    "static/js/main.955ce8c4.js"
   ]
 }
