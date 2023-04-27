@@ -9,8 +9,11 @@ export const OpenerPage = () => {
   }
 
   const clearLocalStorage = () =>{
-    localStorage.clear();
-    alert("Local Data Cleared!");
+    const result = window.confirm("Clear your local data? (This will clear any counters, health points and attack points!)");
+        if (result) {
+            localStorage.clear();
+        }
+        return;
   };
 
   return (
@@ -22,10 +25,9 @@ export const OpenerPage = () => {
               <button className='Main-Menu-Buttons' onClick={clearLocalStorage}>Clear Data</button>
             </div>
             <span>
-              V 0.9.1
-              <li>QOL Updates</li>
-              <li>Added changelog</li>
-              <li>Added "Clear Data" button on opening screen</li>
+              V 0.9.2
+              <li>Added "Home" button to play page</li>
+              <li>Added verification for clearing data</li>
             </span>
             <span id='Author-Credit'>Created by Jtnoble</span>
         </div>
