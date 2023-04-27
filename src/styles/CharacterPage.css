@@ -62,9 +62,6 @@
     height: 100%;
     width: 100%;
 }
-#Bottom-Page-Buttons button{
-
-}
 #Health-Area{
     display: flex;
     justify-content: space-evenly;
