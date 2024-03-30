@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/four-souls-manager-react/static/css/main.4c758232.css",
-    "main.js": "/four-souls-manager-react/static/js/main.55b83266.js",
-    "static/js/787.ae0805b6.chunk.js": "/four-souls-manager-react/static/js/787.ae0805b6.chunk.js",
+    "main.css": "/four-souls-manager-react/static/css/main.28571747.css",
+    "main.js": "/four-souls-manager-react/static/js/main.4d7ee0d3.js",
+    "static/js/453.03cbb535.chunk.js": "/four-souls-manager-react/static/js/453.03cbb535.chunk.js",
     "static/media/rwz-lil_steven.png": "/four-souls-manager-react/static/media/rwz-lil_steven.edf2c07eb57e95b902a2.png",
     "static/media/b2-eden_eternal.png": "/four-souls-manager-react/static/media/b2-eden_eternal.6014588e8e3f3ef4f807.png",
     "static/media/rwz-emergency_meeting-308x420.png": "/four-souls-manager-react/static/media/rwz-emergency_meeting-308x420.df4499158980ec1c898c.png",
@@ -123,12 +123,12 @@
     "static/media/rwz-baba-308x420.png": "/four-souls-manager-react/static/media/rwz-baba-308x420.98902ed461a5f0fff37d.png",
     "static/media/upheavtt.ttf": "/four-souls-manager-react/static/media/upheavtt.e3d365ba5fa6a65e9caf.ttf",
     "index.html": "/four-souls-manager-react/index.html",
-    "main.4c758232.css.map": "/four-souls-manager-react/static/css/main.4c758232.css.map",
-    "main.55b83266.js.map": "/four-souls-manager-react/static/js/main.55b83266.js.map",
-    "787.ae0805b6.chunk.js.map": "/four-souls-manager-react/static/js/787.ae0805b6.chunk.js.map"
+    "main.28571747.css.map": "/four-souls-manager-react/static/css/main.28571747.css.map",
+    "main.4d7ee0d3.js.map": "/four-souls-manager-react/static/js/main.4d7ee0d3.js.map",
+    "453.03cbb535.chunk.js.map": "/four-souls-manager-react/static/js/453.03cbb535.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4c758232.css",
-    "static/js/main.55b83266.js"
+    "static/css/main.28571747.css",
+    "static/js/main.4d7ee0d3.js"
   ]
 }
